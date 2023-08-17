@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    max-height: 100px;
+    background-color: rgba(255, 235, 205, 0.24);
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+header h1:hover{
+    color: rgb(194, 174, 144);
+}
+header nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(194, 174, 144);
+}
+.about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-section div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-section div h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-section div h1:hover{
+    color: rgb(194, 174, 144);
+    cursor: pointer;
+}
+.about-section div p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    line-height: 30px;
+}
+.about-section button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(194, 174, 144);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about-section button:hover{
+    background-color: white;
+    color: rgb(194, 174, 144);
+    border: 1px solid rgb(194, 174, 144);
+}
+.services{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.services h1:hover{
+    color: rgb(194, 174, 144);
+    cursor: pointer;
+}
+.services div{
+    width: 100%;
+    max-width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: rgba(255, 235, 205, 0.24);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    cursor: pointer;
+}
+.services div h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.services div p{
+    font-size: 20px;
+}
+.newsletter{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.newsletter h1:hover{
+    color: rgb(194, 174, 144);
+    cursor: pointer;
+}
+.newsletter div{
+    width: 100%;
+    max-height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.newsletter div p{
+    font-size: 20px;
+}
+.newsletter div form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.newsletter div form input{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+}
+.newsletter div form button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(194, 174, 144);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.newsletter div form button:hover{
+    background-color: white;
+    color: rgb(194, 174, 144);
+    border: 1px solid rgb(194, 174, 144);
+}
+.contact-us{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 235, 205, 0.24);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-us h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-us h1:hover{
+    color: rgb(194, 174, 144);
+    cursor: pointer;
+}
+.contact-us div p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-us div form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact-us form input{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+}
+.contact-us form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+}
+.contact-us form button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(194, 174, 144);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-us form button:hover{
+    background-color: white;
+    color: rgb(194, 174, 144);
+    border: 1px solid rgb(194, 174, 144);
+}
+footer{
+    width: 100%;
+    max-height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer p:hover{
+    color: rgb(194, 174, 144);
+    cursor: pointer;
+}
