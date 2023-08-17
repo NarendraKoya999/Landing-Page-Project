@@ -4,6 +4,11 @@ This repository contains the code for a simple landing page.
 
 # Project Live Link: [Landing-Page-Project](https://narendrakoya999.github.io/Landing-Page-Project/)
 
+## Languages Used
+
+[![HTML5 Badge](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![CSS3 Badge](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 ## Table of Contents
 
 - [About](#about)
@@ -49,7 +54,8 @@ Contributions are welcome! If you find any issues or want to suggest improvement
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+.
 
 ---
 
