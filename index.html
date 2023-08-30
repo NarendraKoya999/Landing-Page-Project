@@ -59,12 +59,12 @@
             <div>
             <h1>Contact Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Message"></textarea>
-                <button>Submit</button>
+            <form role="form" aria-label="Contact Form">
+                <input type="text" id="name" placeholder="Name" aria-required="true" />
+                <input type="email" id="email" placeholder="Email" aria-required="true" />
+                <input type="text" id="subject" placeholder="Subject" aria-required="true" />
+                <textarea id="message" placeholder="Message" aria-required="true"></textarea>
+                <button type="submit">Submit</button>
             </form>
             </div>
         </section>
